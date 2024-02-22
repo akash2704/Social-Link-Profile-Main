@@ -21,7 +21,7 @@ This project is a front-end coding challenge from Frontend Mentor. The goal is t
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/social-links-profile.git`
+1. Clone the repository: `https://github.com/akash2704/Social-Link-Profile-Main.git`
 2. Open the project in your favorite code editor.
 3. Start coding and customize the project to match the design.
 
