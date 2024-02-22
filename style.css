@@ -1,0 +1,120 @@
+@font-face {
+  font-family: "Inter";
+  src: url(assets\fonts\static\Inter-Regular.ttf) format("ttf");
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color:hsl(0, 0%, 8%) ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container{
+  background-color:hsl(0, 0%, 12%);
+  padding: 24px;
+  border-radius:10px;
+  box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.05);
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  text-align: center;
+  max-width: 400px;
+
+}
+.profile_detail{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 19%;
+}
+.inter-profile__name {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 0.5rem;
+}
+.inter-profile__location{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 1.00rem;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  color:  hsl(75, 94%, 57%);
+  margin-bottom: 1.25rem;
+}
+.inter-profile_tag{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 1.25rem;
+}
+.inter-social-links{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.inter-social-links a{
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:"slnt" 0;
+  margin-bottom: 1.25rem;
+  background-color: hsl(0, 0%, 20%);
+  border: 1px solid hsl(0, 0%, 20%);
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  width: 80%;
+  transition: all 0.15s ease-in-out;
+}
+.inter-social-links a:hover{
+  background-color: hsl(75, 94%, 57%);
+}
+.profile__image img{
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1.25rem;
+}
+.attribution { 
+  font-size: 11px;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Mobile Styles */
+@media (max-width: 375px) {
+  .container {
+    width: 90%;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1440px) {
+  .container {
+    width: 25% ;
+  }
+}
